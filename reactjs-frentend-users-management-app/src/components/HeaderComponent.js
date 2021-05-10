@@ -16,7 +16,7 @@ class HeaderComponent extends Component {
                 <CssBaseline />
                 <AppBar position="absolute">
                     <Toolbar>
-                    <Link to="http://localhost:3000/">
+                    <Link to="https://react-js-users-management-app.herokuapp.com/">
                         <Typography component="h1" variant="h6" color='inherit'>
                             User Management App
                         </Typography>
