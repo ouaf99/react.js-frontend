@@ -16,11 +16,12 @@ class HeaderComponent extends Component {
                 <CssBaseline />
                 <AppBar position="absolute">
                     <Toolbar>
-                    <Link to="https://react-js-users-management-app.herokuapp.com/">
+            {/*<Link to="https://react-js-users-management-app.herokuapp.com/">
                         <Typography component="h1" variant="h6" color='inherit'>
                             User Management App
                         </Typography>
-                        </Link>
+                        </Link>*/}
+            <a href="https://react-js-users-management-app.herokuapp.com/" className="navbar-brand">User Management App</a>
                         <Link to="/dashboard-template">
                             <DashboardIcon color='inherit' aria-label="Dashboard" fontSize="large" align ="right" style={{
                                      position: 'absolute',
